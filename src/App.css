@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+    text-align: center;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+
+}
+#root div{
+display: flex;
+flex-wrap: wrap;
+}

@@ -3,7 +3,10 @@
     height: 400px;
     border: 1px solid #000;
     border-radius: 5px;
+    font-size: 0.6rem;
+    background-color: white;
 }
 .product-container img{
-    width: 100%;
+    width: 50%
+    
 }

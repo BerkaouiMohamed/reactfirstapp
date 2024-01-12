@@ -1,12 +1,16 @@
 import './App.css';
-import HomeProducts from './components/HomeProducts';
-import Navbar from './components/Navbar';
+import Product from './components/product';
+import products  from './products'
 
 function App() {
   return (
 <>
-<Navbar/>
-<HomeProducts/>
+<input type="text" />
+
+<br/>
+<div>
+{products.map((p)=><Product product={p} key={p.id} />)}
+</div>
 </>
   );
 }
